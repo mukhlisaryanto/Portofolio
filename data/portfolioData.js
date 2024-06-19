@@ -4,33 +4,25 @@ export const portfolioData = [
     id: 1,
     class: "isotop-item logo",
     bgClass: "bg-prink",
-    imgSrc: "/assets/img/work/work-img-1.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Chul urina",
+    imgSrc: "/assets/img/work/pt-kerinci-utama.png",
+    subtitle: "Power BI , Performance Analysis",
+    title: "Performance Analysis PT Kerinci Utama with Power BI",
     target: "#portfolio-1",
-    category: ["Data"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
+    category: ["Data Analyst"],
+    project: "Power BI Dashboard",
+    languages: ["Power BI", "Power Query"],
+    client: "PT Kerinci Utama",
     previewLink: "#",
-    previewName: "www.envato.com",
+    previewName: "https://medium.com/@aryantomukhlis/performance-analysis-pt-kerinci-utama-with-power-bi-c10daba62831",
     desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
+      `Project ini bertujuan untuk menganalisis performa penjualan PT Kerinci Utama, sebuah perusahaan yang bergerak di bidang penjualan besi baja, selama periode tahun 2017 hingga 2020. Data yang dianalisis meliputi penjualan, target penjualan per produk, serta performa di level material, region, dan customer. Selain itu, penelitian ini juga melakukan segmentasi customer dan analisis cohort berdasarkan tahun awal mereka menjadi customer perusahaan.`,
 
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      `Hasil analisis menunjukkan bahwa penjualan perusahaan mengalami peningkatan yang konsisten setiap tahun, meskipun selalu sedikit di bawah target yang telah ditetapkan. Pada tahun 2017, penjualan mencapai 83,3% dari target, sedangkan pada tahun 2020 pencapaian penjualan mencapai 96,2% dari target. Analisis performa menunjukkan bahwa penjualan produk baja tersebar di empat region dengan kenaikan bertahap di setiap region. Setiap tahun, PT Kerinci Utama memperoleh customer baru, yang menunjukkan adanya ekspansi pasar dan pertumbuhan basis pelanggan.`,
+
+      `Insight yang didapat menunjukkan perlunya peningkatan strategi pemasaran untuk mencapai target penjualan, analisa lebih lanjut pada region dengan potensi pertumbuhan tertinggi, serta pengembangan program loyalitas untuk mempertahankan customer yang ada dan menarik customer baru. Selain itu, diversifikasi produk dan simulasi forecast serta analisis what-if dianjurkan untuk menentukan target penjualan yang lebih realistis dan strategi pencapaiannya.`,
+
+      `Project ini memberikan rekomendasi actionable insight untuk meningkatkan performa penjualan perusahaan dan mencapai target yang lebih optimal di masa mendatang.`
+
     ],
   },
   {
