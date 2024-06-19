@@ -12,7 +12,7 @@ export const portfolioData = [
     project: "Power BI Dashboard",
     languages: ["Power BI", "Power Query"],
     client: "PT Kerinci Utama",
-    previewLink: "#",
+    previewLink: "https://medium.com/@aryantomukhlis/performance-analysis-pt-kerinci-utama-with-power-bi-c10daba62831",
     previewName: "https://medium.com/@aryantomukhlis/performance-analysis-pt-kerinci-utama-with-power-bi-c10daba62831",
     desc: [
       `Project ini bertujuan untuk menganalisis performa penjualan PT Kerinci Utama, sebuah perusahaan yang bergerak di bidang penjualan besi baja, selama periode tahun 2017 hingga 2020. Data yang dianalisis meliputi penjualan, target penjualan per produk, serta performa di level material, region, dan customer. Selain itu, penelitian ini juga melakukan segmentasi customer dan analisis cohort berdasarkan tahun awal mereka menjadi customer perusahaan.`,
