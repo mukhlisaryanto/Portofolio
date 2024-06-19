@@ -6,7 +6,7 @@ import React from "react";
 import MenuTwo from "@/components/homes/menus/MenuTwo";
 
 export const metadata = {
-  title: "Home-1 || Bostami - Professional portfolio NextJS Template",
+  title: "Home",
   description:
   "Resume and Portofolio Mukhlis Aryanto the Profesional of Technology Informatics",
 };

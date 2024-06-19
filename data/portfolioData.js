@@ -1,3 +1,4 @@
+// page settings: components/homes/portfolio/Portfolio.jsx
 export const portfolioData = [
   {
     id: 1,
@@ -7,7 +8,7 @@ export const portfolioData = [
     subtitle: "Travel Landing , UX/UI",
     title: "Chul urina",
     target: "#portfolio-1",
-    category: ["Logo"],
+    category: ["Data"],
     project: "website",
     languages: ["Photoshop", "Figma"],
     client: "Envato",
@@ -73,7 +74,7 @@ export const portfolioData = [
     subtitle: "Travel Landing , UX/UI",
     title: "T-Shirt Design",
     target: "#portfolio-1",
-    category: ["Mockup", "Logo"],
+    category: ["Mockup", "Data"],
     project: "website",
     languages: ["Photoshop", "Figma"],
     client: "Envato",
@@ -139,7 +140,7 @@ export const portfolioData = [
     subtitle: "Travel Landing , UX/UI",
     title: "Modern Bag Design",
     target: "#portfolio-1",
-    category: ["Logo", "Graphic Design"],
+    category: ["Data", "Graphic Design"],
     project: "website",
     languages: ["Photoshop", "Figma"],
     client: "Envato",
@@ -207,14 +208,14 @@ export const filterButtons = [
   },
   {
     id: 2,
-    text: "Mockup",
+    text: "Data Analyst",
   },
   {
     id: 3,
-    text: "Graphic Design",
+    text: "Data Engineer",
   },
   {
     id: 4,
-    text: "Logo",
+    text: "Data Science",
   },
 ];

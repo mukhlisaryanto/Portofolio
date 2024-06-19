@@ -3,7 +3,7 @@ import HeaderTwo from "@/components/homes/headers/HeaderTwo";
 import PersonalInfoTwo from "@/components/homes/personalInfo/PersonalInfoTwo";
 import React from "react";
 export const metadata = {
-  title: "About || Bostami - Professional portfolio NextJS Template",
+  title: "About",
   description:
     "Discover Botami,the most impressive portfolio template for work showcase, blog",
 };

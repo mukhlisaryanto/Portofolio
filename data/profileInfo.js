@@ -1,6 +1,4 @@
 
-
-
 export const profileInfo = {
    name:'Mukhlis Aryanto',
    title:'Data Engineer',

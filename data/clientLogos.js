@@ -1,3 +1,4 @@
+// testimoni client di nonaktifkan pada components/homes/about/AboutOne.jsx
 export const clientLogos = [
   { id: 1, imgSrc: "/assets/img/client/client-logo-1.png" },
   { id: 2, imgSrc: "/assets/img/client/client-logo-2.png" },
