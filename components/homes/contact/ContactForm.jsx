@@ -17,10 +17,10 @@ export default function ContactForm() {
       e.preventDefault();
       emailjs
         .sendForm(
-          "service_dmi6ahg",
-          "template_27gb45j",
+          "service_48zyesu",
+          "template_yuknlza",
           form.current,
-          "DZ5_zsU_-B2ilW2Wg"
+          "oVetUCHtx8pIb7Grt"
         )
         .then(
           (result) => {
@@ -58,7 +58,7 @@ export default function ContactForm() {
                     <div className="form-input-item mb-60">
                 <label style={activeInputBoxes.includes('name')? {color:'#FE7878'}:{}} className="input-lebel name">name *</label>
                 <input
-                  name="name"
+                  name="from_name"
                   className={`input-box name ${activeInputBoxes.includes('name') && 'height'} `}
                   type="text"
                   required
@@ -69,7 +69,7 @@ export default function ContactForm() {
               <div className="form-input-item mb-60">
                 <label style={activeInputBoxes.includes('gmail')? {color:'#1B74E4'}:{}} className="input-lebel gmail">Email *</label>
                 <input
-                  name="email"
+                  name="from_email"
                   className={`input-box gmail ${activeInputBoxes.includes('gmail') && 'height'} `}
                   type="Email"
                   required
