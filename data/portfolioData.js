@@ -80,24 +80,11 @@ export const portfolioData = [
     languages: ["Hardware Infrastructure"],
     client: "PT. Sicepat Ekspres",
     previewLink: "#",
-    previewName: "www.envato.com",
+    previewName: "https://www.aryantoworks.tech/portfolio",
     desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
+      ` Dengan pengalaman luas dalam dukungan IT dan manajemen infrastruktur, saya telah berhasil menangani berbagai tanggung jawab di 150 cabang operasional di Jakarta Selatan dan Tangerang Selatan. Keahlian saya mencakup instalasi dan troubleshooting perangkat lunak, perangkat keras, CCTV, jaringan LAN, dan internet, memastikan kelancaran operasional di berbagai lokasi. Saya juga melakukan audit menyeluruh pada sistem IT, menerapkan langkah-langkah pengamanan, serta melakukan pemeliharaan aset IT untuk meningkatkan keamanan dan performa. Dengan mematuhi tenggat waktu yang ketat, saya memastikan instalasi IT di cabang baru berjalan tepat waktu dan efisien, sehingga operasional tetap lancar.`,
 
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      ` Selain keahlian teknis, saya juga unggul dalam hubungan klien dan kolaborasi lintas fungsi. Saya berhasil menyelesaikan lebih dari 98% masalah perangkat keras dan perangkat lunak untuk lebih dari 100 klien serta mengimplementasikan program pelatihan IT untuk staf non-teknis, yang mengurangi permintaan dukungan teknis hingga 50%. Kontribusi saya juga mencakup penyederhanaan sistem tiket IT yang meningkatkan efisiensi sebesar 30% dan merancang rencana cadangan dan pemulihan bencana yang kuat, sehingga meminimalkan waktu henti sistem hingga 75%. Pencapaian ini mencerminkan komitmen saya untuk memberikan solusi IT yang andal guna mendorong keunggulan operasional dan kepuasan klien.`,
     ],
   },
   {
