@@ -82,23 +82,52 @@ export default function Modal({ setShowModal, showModal, modalContent }) {
 
               <div className="h1-modal-paragraph">
                 {modalContent?.desc.map((elm, i) => (
-                  <p key={i}>{elm}</p>
+                    <p key={i}>{elm}</p>
                 ))}
               </div>
               <div className="h1-modal-img">
                 {modalContent?.imgSrc && (
-                  <Image
-                    width={800}
-                    height={800}
-                    style={{
-                      width: "100%",
-                      height: "fit-content",
-                      maxHeight: "450px",
-                      objectFit: "cover",
-                    }}
-                    src={modalContent?.imgSrc}
-                    alt="portfolio"
-                  />
+                    <Image
+                        width={800}
+                        height={800}
+                        style={{
+                          width: "100%",
+                          height: "fit-content",
+                          maxHeight: "450px",
+                          objectFit: "cover",
+                        }}
+                        src={modalContent?.imgSrc}
+                        alt="portfolio"
+                    />
+                )}
+              </div>
+              {/*Add the new image column here custom */}
+              <div className="h1-modal-images">
+                {modalContent?.imageColumn?.length > 0 && (
+                    <div className="image-grid">
+                      {modalContent.imageColumn.map((image, index) => (
+                          <div key={index} className="image-item"
+                               /* Untuk Margin antar gambar
+                               style={{
+                                 marginTop: "10px", //Space above
+                                 marginBottom: "10px" //Space below
+                               }} */
+                          >
+                            <Image
+                                width={800}
+                                height={800}
+                                style={{
+                                  width: "100%",
+                                  height: "fit-content",
+                                  maxHeight: "450px",
+                                  objectFit: "cover",
+                                }}
+                                src={image}
+                                alt={`Additional image ${index + 1}`}
+                            />
+                          </div>
+                      ))}
+                    </div>
                 )}
               </div>
             </div>
@@ -106,16 +135,16 @@ export default function Modal({ setShowModal, showModal, modalContent }) {
         </div>
       </div>
       {showModal && (
-        <div className="modal-header">
-          <button
-            type="button"
-            className="close"
-            data-bs-dismiss="modal"
-            onClick={() => setShowModal(false)}
-          >
-            <i className="far fa-times"></i>
-          </button>
-        </div>
+          <div className="modal-header">
+            <button
+                type="button"
+                className="close"
+                data-bs-dismiss="modal"
+                onClick={() => setShowModal(false)}
+            >
+              <i className="far fa-times"></i>
+            </button>
+          </div>
       )}
     </>
   );

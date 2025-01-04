@@ -3491,6 +3491,33 @@ textarea:focus::placeholder {
     font-size: 22px;
   }
 }
+/* Penambahan Modular Grid untuk portofolio */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+  gap: 16px; /* Space between items */
+  margin-top: 16px; /* Optional: Space above grid */
+  margin-bottom: 16px; /* Optional: Space below grid */
+  padding: 0 10px; /* Add padding for better alignment on smaller screens */
+}
+
+.image-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px; /* Optional: Add padding around images */
+  background-color: #f8f9fa; /* Optional: Background color for grid items */
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+}
+/* One Column Layout for Mobile Devices */
+@media (max-width: 576px) {
+  .image-grid {
+    grid-template-columns: 1fr; /* Force one column */
+  }
+}
+/* End baris Penambahan Modular Grid untuk portofolio */
+
 .portfolio-modal-box
   .modal-dialog
   .modal-content
