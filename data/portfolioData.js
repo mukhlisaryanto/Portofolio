@@ -79,8 +79,8 @@ export const portfolioData = [
     project: "website",
     languages: ["Hardware Infrastructure"],
     client: "PT. Sicepat Ekspres",
-    previewLink: "#",
-    previewName: "https://www.aryantoworks.tech/portfolio",
+    previewLink: "https://www.aryantoworks.tech/portfolio",
+    previewName: "Foto Project",
     desc: [
       ` Dengan pengalaman luas dalam dukungan IT dan manajemen infrastruktur, saya telah berhasil menangani berbagai tanggung jawab di 150 cabang operasional di Jakarta Selatan dan Tangerang Selatan. Keahlian saya mencakup instalasi dan troubleshooting perangkat lunak, perangkat keras, CCTV, jaringan LAN, dan internet, memastikan kelancaran operasional di berbagai lokasi. Saya juga melakukan audit menyeluruh pada sistem IT, menerapkan langkah-langkah pengamanan, serta melakukan pemeliharaan aset IT untuk meningkatkan keamanan dan performa. Dengan mematuhi tenggat waktu yang ketat, saya memastikan instalasi IT di cabang baru berjalan tepat waktu dan efisien, sehingga operasional tetap lancar.`,
 
