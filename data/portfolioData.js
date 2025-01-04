@@ -29,33 +29,26 @@ export const portfolioData = [
     id: 2,
     class: "isotop-item design mockup",
     bgClass: "bg-catkrill",
-    imgSrc: "/assets/img/work/work-img-2.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Aura Dione",
+    imgSrc: "/assets/img/work/ETL1.png",
+    subtitle: "Data Warehouse, PostgreSQL, Python, ETL",
+    title: "Design and Implementation of a Data Warehouse for E-commerce Using Star Schema and ETL Processes: A Case Study at PT. Sukses Solusindo Digital",
     target: "#portfolio-1",
-    category: ["Mockup", "Graphic Design"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
-    previewLink: "#",
-    previewName: "www.envato.com",
+    category: ["Data Engineer"],
+    project: "ETL Pipeline",
+    languages: ["Python", "SQL", "PostgreSQL"],
+    client: "PT. Sukses Solusindo Digital",
+    previewLink: "https://github.com/mukhlisaryanto/DBE_PT_Sukses_Solusindo_Digital",
+    previewName: "https://github.com/mukhlisaryanto/DBE_PT_Sukses_Solusindo_Digital",
     desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
+      ` Proyek ini merancang, mengimplementasikan, dan mengoptimalkan data warehouse untuk platform e-commerce menggunakan PostgreSQL sebagai DBMS.  Langkah-langkah utama yang dilakukan adalah desain skema bintang (star schema), proses ETL (Extract, Transform, Load), analisis data menggunakan kueri SQL, optimalisasi kinerja, dan pelaporan.  Data dari file Excel diimpor ke PostgreSQL, ditransformasikan, dan dimuat ke dalam tabel data warehouse. `,
+      
+      ` Analisis data yang dilakukan menggunakan kueri SQL untuk: Menghitung total penjualan per kategori produk, Mengidentifikasi tiga pelanggan teratas berdasarkan jumlah pembelian, Tren penjualan bulanan untuk kuartal pertama tahun 2024, Total jumlah barang yang terjual per toko.`,
 
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      `Teknik optimalisasi kinerja yang diterapkan termasuk pengindeksan, partisi tabel, denormalisasi, dan optimasi kueri.`,
+
+      `Pelaporan yang dibuat menunjukkan kinerja penjualan (jumlah total dan kuantitas yang terjual) berdasarkan toko dan kategori produk.`,
+
+      `Kesimpulannya, proyek ini berhasil merancang dan mengimplementasikan data warehouse yang efisien untuk platform e-commerce.  Analisis data yang dilakukan memberikan wawasan yang berharga tentang kinerja penjualan dan tren pelanggan.  Teknik optimalisasi kinerja yang diterapkan secara signifikan meningkatkan kecepatan eksekusi kueri.  Pelaporan yang dibuat memberikan informasi yang jelas dan bermanfaat bagi pengambilan keputusan bisnis.`,
     ],
   },
   {
