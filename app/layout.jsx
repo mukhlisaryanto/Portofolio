@@ -1,4 +1,4 @@
-
+import { Analytics } from '@vercel/analytics/next';
 
 import { ToastContainer } from 'react-toastify'
 import '../public/main.scss'
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
 
         />
           {children}
-        
+        <Analytics />
         
         </body>
     </html>

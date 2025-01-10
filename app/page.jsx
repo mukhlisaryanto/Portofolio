@@ -12,11 +12,12 @@
 //     "Discover Botami,the most impressive portfolio template for work showcase, blog",
 // };
 import Home1 from "@/app/(homes)/home-1/page";
-
+import { Analytics } from '@vercel/analytics/next';
 export default function page() {
   return (
     <>
         <Home1/>
+        <Analytics />
         { /*<Hero/>
             <Demo />
             <Features />
